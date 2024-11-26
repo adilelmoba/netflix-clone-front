@@ -3,6 +3,7 @@ export interface MovieApiResponse {
   results: Movie[];
   total_pages: number;
   total_results: number;
+  genreId: number;
 }
 
 export interface Movie {

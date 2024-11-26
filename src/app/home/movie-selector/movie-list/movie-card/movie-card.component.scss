@@ -1,0 +1,15 @@
+.movie {
+  transition: transform 450ms;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.movie:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
+
+.placeholder-poster {
+  width: 200px;
+  height: 250px;
+}
